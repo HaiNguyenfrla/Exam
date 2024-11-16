@@ -1,0 +1,101 @@
+.average-chart{
+    width: 100%;
+}
+
+.custom-chart-container{
+    margin: auto;
+    display: table;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination li a {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .pagination li.active a {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+
+  .trade-analyze{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  @media only screen and (min-width : 768px){
+    .trade-analyze{
+      width: 94%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (max-width : 768px){
+    .trade-analyze{
+      width: 94%;
+      margin: 0 auto;
+    }
+  }
+  
+  .trade-analyze h2 {
+    flex: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .trade-analyze .trade-table {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border: 1px solid hsla(0,0%,100%,.15);
+    margin: 2em 0em;
+  }
+  
+  .trade-analyze .trade-table th,
+  .trade-analyze .trade-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid hsla(0,0%,100%,.15);
+  }
+  
+  .trade-analyze .trade-table th {
+    background-color: hsla(0,0%,100%,.1);
+    font-size: 1.5em !important;
+  }
+  
+  /* .trade-analyze .trade-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+    */
+  .trade-analyze .trade-table td {
+    font-size: 1.3em !important;
+    color: white;
+  }
+  
+  .trade-analyze .trade-table td span {
+    color: #007bff;
+  }
+  
+  .trade-analyze .trade-table td:nth-child(3) {
+    font-weight: bold;
+  }
